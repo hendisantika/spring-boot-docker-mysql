@@ -1,0 +1,11 @@
+spring:
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: validate
+
+    datasource:
+        url: jdbc:mysql://localhost:3306/spring-boot-docker-mysql?createDatabaseIfNotExist=true
+        username: root
+        password: root
+        driver-class-name: com.mysql.jdbc.Driver
