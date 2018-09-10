@@ -9,7 +9,7 @@ Assume you already have Docker installed. See https://docs.docker.com/installati
 First, clone the project and build locally:
 
 ~~~
-git clone https://github.com/jiwhiz/spring-boot-docker-mysql.git
+git clone https://github.com/hendisantika/spring-boot-docker-mysql.git
 cd spring-boot-docker-mysql
 mvn clean package docker:build
 ~~~
