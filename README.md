@@ -28,7 +28,7 @@ docker logs demo-mysql
 Run demo application in Docker container and link to demo-mysql:
 
 ~~~
-docker run -p 8080:8080 --name demo-app --link demo-mysql:mysql -d jiwhiz/spring-boot-docker-mysql
+docker run -p 8080:8080 --name demo-app --link demo-mysql:mysql -d hendisantika/spring-boot-docker-mysql
 ~~~
 
 You can check the log by
